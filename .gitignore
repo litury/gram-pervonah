@@ -1,0 +1,54 @@
+# Зависимости
+node_modules/
+/client/node_modules/
+/server/node_modules/
+
+# Сборки и дистрибутивы
+/build/
+/dist/
+
+# Логи и отладка
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Среда выполнения
+.env
+.env.local
+.env.*.local
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Специфичные для проекта
+/client/build/
+/client/.env*
+/server/dist/
+/server/.env
+
+
+# Кэш и временные файлы
+.cache/
+*.cache
+
+# Прочее
+.pnp/
+.pnp.js
+/coverage/
+/guideline
+.editorconfig
+.cursorignore
+.cursorrules
+.gitattributes
